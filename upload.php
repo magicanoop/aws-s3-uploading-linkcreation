@@ -1,6 +1,6 @@
 <?php
 	// This file demonstrates file upload to an S3 bucket. This is for using file upload via a
-	// file compared to just having the link. If you are doing it via link, refer to this:
+	// file compared to just having the link. If you are doing it via link, refer to this:https://github.com/magicanoop/aws-s3-uploading-linkcreation/blob/main/upload.php
 	// https://gist.github.com/keithweaver/08c1ab13b0cc47d0b8528f4bc318b49a
 	//
 	// You must setup your bucket to have the proper permissions. To learn how to do this
@@ -20,9 +20,9 @@
 	use Aws\S3\Exception\S3Exception;
 
 	// AWS Info
-	$bucketName = 'neyyar-mediawall';
-	$IAM_KEY = 'AKIA2AOJW4TPJ232SXYJ';
-	$IAM_SECRET = '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';
+	$bucketName = 'bktname';
+	$IAM_KEY = 'key';
+	$IAM_SECRET = 'secret';
 
 	// Connect to AWS
 	try {
