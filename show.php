@@ -13,7 +13,7 @@ $s3Client = new Aws\S3\S3Client([
 
 //Creating a presigned URL
 $cmd = $s3Client->getCommand('GetObject', [
-    'Bucket' => 'neyyar-mediawall',
+    'Bucket' => 'bktname',
     'Key' => 'test_example/sampletextfile.txt'
 ]);
 
