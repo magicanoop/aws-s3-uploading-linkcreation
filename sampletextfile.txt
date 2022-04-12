@@ -1,0 +1,17 @@
+Dockerfile
+-------------
+
+FROM node:alpine
+COPY ./app
+CMD node app/sever.js
+
+CLI
+---------
+
+docker build -t hello-docker
+
+docker commit hello-docker anoopsurendran/hello-docker
+
+docker login
+
+docker push anoopsurendran/hello-docker
